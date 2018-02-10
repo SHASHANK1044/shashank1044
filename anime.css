@@ -1,0 +1,145 @@
+/* firstnav*/
+#firstnav  {
+	height:40px;
+	background-color:red ;
+	text-align: center; 
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+#firstnav a {
+	
+	font-size: 20px;
+	color:white;
+	text-decoration: none;
+	line-height: 40px;
+    margin: auto;
+    width: 100%;
+    margin-right: 50px;
+
+	
+}
+
+input {
+	margin-top: 7px;
+	margin-right: 100px;	
+	float: right;
+}
+
+/*secondnav*/
+#secondnav {
+	height:330px;
+	background-color:#404040 ; 
+	text-align: center;
+    margin: auto;
+    width: 100%
+
+}
+
+/*#secondnav a {
+	font-size: 20px;
+	position:relative;
+	right: 136px;
+	top:100px;
+	color:white;
+	text-decoration: none;
+	margin: auto;
+    width: 100%;
+    margin-right: 50px;
+}*/
+
+/*box*/
+#box {
+	width: 1000px;
+	height:2258px;
+	margin:auto;
+	position: relative;
+	bottom:250px;
+	background-color: white;
+	box-shadow: 0px 26px 32px 0px rgba(0,0,0,.5);
+
+}
+
+#slider {
+	height: 500px; 
+	overflow: hidden;
+	box-shadow: 0px 16px 22px 0px rgba(0,0,0,.5)
+}
+
+#slider img {
+	height: 500px;
+	width: 100%;
+}
+
+p {
+	font-size: 40px;
+	margin: 0%;
+	margin: 70px 0px 0px 40px;
+}
+
+#scroll-1,#scroll-2,#scroll-3 {
+    height: 400px;
+	margin-top: 40px;
+	overflow: hidden;
+	box-shadow: 0px 16px 25px 0px rgba(0,0,0,.5)
+
+}
+
+#scroll-1 img,#scroll-2 img ,#scroll-3 img {
+	height: 400px;
+	width: 250px;
+	margin-left: 40px;
+
+
+}
+
+#scroll-1 img:hover,#scroll-2 img:hover ,#scroll-3 img:hover {
+	box-shadow: 0px 36px 42px 0px rgba(0,0,0,.5);
+	transform: scale(1.2,1.2);
+	transform: scale(1.1,1.1);
+	transition: 2s;
+	
+}
+
+#sliderleft  {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 250px;
+	left:20px;
+	margin: 10px solid red;
+}
+
+#sliderright {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 250px;
+	right: 20px;
+
+}
+
+#sliderleft:hover,#sliderright:hover {
+	transform: scale(2,2);
+}
+
+#s1scrollleft,#s2scrollleft,#s3scrollleft {
+	height: 40px;
+	width: 40px;
+	position: relative;
+	bottom: 220px;
+}
+
+#s1scrollright,#s2scrollright,#s3scrollright {
+	height: 40px;
+	width: 40px;
+	position: relative;
+	bottom: 220px;
+	left: 900px;
+
+}
+
+#s1scrollright:hover ,#s2scrollright:hover ,#s3scrollright:hover ,#s1scrollleft:hover ,#s2scrollleft:hover ,#s3scrollleft:hover {
+	transform: scale(2,2);
+}
